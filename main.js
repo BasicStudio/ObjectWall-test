@@ -41,6 +41,7 @@ function renderOBJ(){
 }
 
 //list of objects and there cordnet values
+addToList(150, 150)
 
 renderOBJ();
 
