@@ -36,15 +36,10 @@ function renderOBJ(){
     //player
     circle(5, "blue", charX, charY, 20)
 
-    //Object
-    circle(5, "red", canvas.width/2-5, canvas.height/2-5, 20)
-    circle(5, "red", 200, 200, 20)
-    //console.log(getDistance(charX, charY, canvas.width/2-5, canvas.height/2-5))
+    //projectiles
 }
 
 //list of objects and there cordnet values
-addToList(canvas.width/2-5, canvas.height/2-5)
-addToList(200, 200)
 
 renderOBJ();
 
