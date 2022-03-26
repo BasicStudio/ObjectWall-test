@@ -37,6 +37,7 @@ function renderOBJ(){
     circle(5, "blue", charX, charY, 20)
 
     //projectiles
+    circle(5, "red", 150, 150, 20)
 }
 
 //list of objects and there cordnet values
